@@ -1,0 +1,12 @@
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\bin\Debug\net7.0\NewsletterService.Domain.deps.json
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\bin\Debug\net7.0\NewsletterService.Domain.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\bin\Debug\net7.0\NewsletterService.Domain.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.AssemblyInfo.cs
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\refint\NewsletterService.Domain.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\NewsletterService.Domain.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Domain\obj\Debug\net7.0\ref\NewsletterService.Domain.dll

@@ -1,0 +1,12 @@
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\bin\Debug\net7.0\NewsletterService.UnitTests.deps.json
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\bin\Debug\net7.0\NewsletterService.UnitTests.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\bin\Debug\net7.0\NewsletterService.UnitTests.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.AssemblyInfo.cs
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\refint\NewsletterService.UnitTests.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\NewsletterService.UnitTests.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.UnitTests\obj\Debug\net7.0\ref\NewsletterService.UnitTests.dll
