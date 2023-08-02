@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="newsletter-signup-form.component.css">
+<form (ngSubmit)="onSubmit()" #signupForm="ngForm">
+    <div>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="user.email" required>
+    </div>
+    <div>
+      <label for="howHeard">How did you hear about us:</label>
+      <select id="howHeard" name="howHeard" [(ngModel)]="user.howHeard" required>
+        <option value="">Select one</option>
+        <option value="Advert">Advert</option>
+        <option value="Word of Mouth">Word of Mouth</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div>
+      <label for="reason">Reason for signing up:</label>
+      <textarea id="reason" name="reason" [(ngModel)]="user.reason"></textarea>
+    </div>
+    <button type="submit">Sign Up</button>
+    <p *ngIf="feedbackMessage">{{ feedbackMessage }}</p>
+  </form>
+  
