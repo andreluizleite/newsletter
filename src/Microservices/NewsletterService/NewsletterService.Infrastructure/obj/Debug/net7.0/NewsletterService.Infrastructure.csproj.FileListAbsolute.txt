@@ -10,3 +10,8 @@ C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\Newsl
 C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\refint\NewsletterService.Infrastructure.dll
 C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.pdb
 C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\ref\NewsletterService.Infrastructure.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Infrastructure.runtimeconfig.json
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Domain.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Domain.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.csproj.CopyComplete
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.genruntimeconfig.cache

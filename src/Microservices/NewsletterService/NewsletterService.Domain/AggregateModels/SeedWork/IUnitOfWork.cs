@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace NewsletterService.Domain.AggregateModels.SeedWork
 {
-    public class IUnitOfWork
+    public interface IUnitOfWork :IDisposable
     {
-        public void SaveEntitiesAsync(CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+        Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default);
     }
 }
