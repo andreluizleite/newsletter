@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using NewsletterService.Api.Application.Commands;
 using NewsletterService.Api.Application.DTOs;
