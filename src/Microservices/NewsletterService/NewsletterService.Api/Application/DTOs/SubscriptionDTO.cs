@@ -32,9 +32,9 @@ namespace NewsletterService.Api.Application.DTOs
 
     public static class HowHeardUsOptionExtensions
     {
-        public static HowHeardOptionDto ToDto(this HowHeardOption optionDto)
+        public static HowHeardOptionDto ToDto(this HowHeardOption option)
         {
-            switch (optionDto)
+            switch (option)
             {
                 case HowHeardOption.Advert:
                     return HowHeardOptionDto.Advert;
@@ -43,7 +43,25 @@ namespace NewsletterService.Api.Application.DTOs
                 case HowHeardOption.Other:
                     return HowHeardOptionDto.Other;
                 default:
-                    throw new ArgumentOutOfRangeException(nameof(optionDto), "Invalid HowHeardUsOptionDTO value.");
+                    throw new ArgumentOutOfRangeException(nameof(option), "Invalid HowHeardOption value.");
+            }
+        }
+    }
+
+    public static class HowHeardOptionExtensions
+    {
+        public static HowHeardOption ToDto(this HowHeardOptionDto optionDto)
+        {
+            switch (optionDto)
+            {
+                case HowHeardOptionDto.Advert:
+                    return HowHeardOption.Advert;
+                case HowHeardOptionDto.WordOfMouth:
+                    return HowHeardOption.WordOfMouth;
+                case HowHeardOptionDto.Other:
+                    return HowHeardOption.Other;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(optionDto), "Invalid HowHeardOptionDto value.");
             }
         }
     }

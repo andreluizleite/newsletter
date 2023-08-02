@@ -6,7 +6,7 @@ using NewsletterService.Api.Application.Queries;
 
 namespace NewsletterService.Api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class NewsletterService
     {
@@ -17,18 +17,22 @@ namespace NewsletterService.Api.Controllers
             _mediator = mediator;
         }
 
+        [HttpPost]
+        [Route("Subscribe")]
         public async Task<bool> Subscribe(string email, HowHeardOptionDto howHeardUs, string reason)
         {
             var command = new SubscribeToNewsletterCommand
             {
                 Email = email,
-                HowHeardUs = (int)howHeardUs,
+                HowHeardUs = howHeardUs,
                 Reason = reason
             };
 
             return await _mediator.Send(command);
         }
 
+        [HttpGet]
+        [Route("GetSubscribers")]
         public async Task<List<SubscriptionDTO>> GetSubscribers()
         {
             var query = new GetNewsletterSubscribersQuery();

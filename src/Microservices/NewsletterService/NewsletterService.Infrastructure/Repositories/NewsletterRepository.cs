@@ -1,4 +1,5 @@
-﻿using NewsletterService.Domain.AggregateModels.NewsletterAggregate;
+﻿using Microsoft.EntityFrameworkCore;
+using NewsletterService.Domain.AggregateModels.NewsletterAggregate;
 using NewsletterService.Domain.AggregateModels.SeedWork;
 
 namespace NewsletterService.Infrastructure.Repositories
@@ -14,19 +15,20 @@ namespace NewsletterService.Infrastructure.Repositories
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public Task<IEnumerable<Newsletter>> GetSubscribersAsync()
+        public async Task<IEnumerable<Newsletter>> GetSubscribersAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Newsletters.ToListAsync();
         }
 
-        public Task<bool> IsEmailExistAsync(string email)
+        public async Task<bool> IsEmailExistAsync(string email)
         {
-            throw new NotImplementedException();
+           return await _context.Newsletters.Where(x => x.Email == email).AnyAsync();
         }
 
-        public Task<Newsletter> SubscribeAsync(string email, int howheard, string reason)
+        public Newsletter Subscribe(Newsletter newsletter)
         {
-            throw new NotImplementedException();
+            return _context.Newsletters.Add(newsletter).Entity;
         }
+
     }
 }

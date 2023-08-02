@@ -17,20 +17,15 @@ namespace NewsletterService.Domain.AggregateModels.NewsletterAggregate
         public string Reason { get; private set; }
 
         // Constructor
-        private Newsletter(Guid id, string email, HowHeardOption howHeardUs, string reason)
+
+        private Newsletter() { }
+        public Newsletter(string email, HowHeardOption howHeardUs, string reason)
         {
-            Id = id;
+            var id = Guid.NewGuid();
             Email = email;
             HowHeardUs = howHeardUs;
             Reason = reason;
         }
 
-        // Factory method for creating a new Newsletter entity
-        public async Task<Newsletter> SubscribeAsync(string email, int howHeardUs, string reason)
-        {
-            var id = Guid.NewGuid();
-
-            return new Newsletter(id, email, HowHeardOption.Other, reason);
-        }
     }
 }

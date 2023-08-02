@@ -11,9 +11,7 @@ namespace NewsletterService.Domain.AggregateModels.NewsletterAggregate
 {
     public interface INewsletterRepository : IRepository<Newsletter>
     {
-        public IUnitOfWork UnitOfWork => throw new NotImplementedException();
-
-        Task<Newsletter> SubscribeAsync(string email, int howheard, string reason);
+        Newsletter Subscribe(Newsletter newsletter);
 
         Task<bool> IsEmailExistAsync(string email);
 

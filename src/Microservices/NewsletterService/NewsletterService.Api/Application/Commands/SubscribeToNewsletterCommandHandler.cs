@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using NewsletterService.Api.Application.DTOs;
 using NewsletterService.Domain.AggregateModels.NewsletterAggregate;
+using NewsletterService.Infrastructure.Repositories;
 
 namespace NewsletterService.Api.Application.Commands
 {
@@ -22,7 +23,9 @@ namespace NewsletterService.Api.Application.Commands
                 throw new ArgumentException("The email has already been registered in the system.");
             }
 
-            var result = _newsletterRepository.SubscribeAsync(request.Email, (int)request.HowHeardUs, request.Reason);
+            Newsletter newsletter = new Newsletter(request.Email, request.HowHeardUs.ToDto(), request.Reason);
+
+            _newsletterRepository.Subscribe(newsletter);
             _newsletterRepository.UnitOfWork.SaveEntitiesAsync(cancellationToken);
 
             return true;
