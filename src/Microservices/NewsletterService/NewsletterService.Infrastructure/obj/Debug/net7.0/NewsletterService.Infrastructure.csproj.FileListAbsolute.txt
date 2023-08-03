@@ -1,0 +1,17 @@
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Infrastructure.deps.json
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Infrastructure.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Infrastructure.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.AssemblyInfo.cs
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\refint\NewsletterService.Infrastructure.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\ref\NewsletterService.Infrastructure.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Infrastructure.runtimeconfig.json
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Domain.dll
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\bin\Debug\net7.0\NewsletterService.Domain.pdb
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.csproj.CopyComplete
+C:\Users\andre\source\repos\newsletter\src\Microservices\NewsletterService\NewsletterService.Infrastructure\obj\Debug\net7.0\NewsletterService.Infrastructure.genruntimeconfig.cache

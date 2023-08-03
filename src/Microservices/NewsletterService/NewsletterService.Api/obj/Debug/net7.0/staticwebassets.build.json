@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Qp96OiqXvUIu9GxA4pfBzaxBOjWH6YE2OVlKiYESUAk=",
+  "Source": "NewsletterService.Api",
+  "BasePath": "_content/NewsletterService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
