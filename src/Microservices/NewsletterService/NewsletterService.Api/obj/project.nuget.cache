@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PXjeZBW2hHRqPENXCvo8KlvYB32oQnE1B1sBi8IV6Z8gjsp/CGLoyfY5RdHVLrKOBjbBpqY8W0iQgEu3/uSSxw==",
+  "dgSpecHash": "Xvg9JYxLUNXL+7BvbHi5UEAN2W8ounFw08iyHMMnFh766o5IBEY4y0SP2WgmNMGBkNygBK8sk+zu4//1wTAAHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj",
+  "projectFilePath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -20,9 +20,9 @@ namespace NewsletterService.Infrastructure.Repositories
             return await _context.Newsletters.ToListAsync();
         }
 
-        public async Task<bool> IsEmailExistAsync(string email)
+        public bool IsEmailExist(string email)
         {
-           return await _context.Newsletters.Where(x => x.Email == email).AnyAsync();
+           return _context.Newsletters.Where(x => x.Email == email).Any();
         }
 
         public Newsletter Subscribe(Newsletter newsletter)

@@ -1,17 +1,103 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj": {}
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj": {
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj",
-        "projectName": "NewsletterService.UnitTests",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj",
+        "projectUniqueName": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj",
+        "projectName": "NewsletterService.Api",
+        "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\obj\\",
+        "outputPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {
+                "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj"
+              },
+              "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Infrastructure\\NewsletterService.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Infrastructure\\NewsletterService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj",
+        "projectName": "NewsletterService.Domain",
+        "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +125,179 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Infrastructure\\NewsletterService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Infrastructure\\NewsletterService.Infrastructure.csproj",
+        "projectName": "NewsletterService.Infrastructure",
+        "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Infrastructure\\NewsletterService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {
+                "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj",
+        "projectName": "NewsletterService.UnitTests",
+        "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\NewsletterService.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.UnitTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj": {
+                "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Api\\NewsletterService.Api.csproj"
+              },
+              "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {
+                "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

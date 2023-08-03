@@ -18,7 +18,7 @@ namespace NewsletterService.Api.Application.Commands
 
         public async Task<bool> Handle(SubscribeToNewsletterCommand request, CancellationToken cancellationToken)
         {
-            if (await _newsletterRepository.IsEmailExistAsync(request.Email))
+            if (_newsletterRepository.IsEmailExist(request.Email))
             {
                 throw new ArgumentException("The email has already been registered in the system.");
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {}
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {
+    "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj",
         "projectName": "NewsletterService.Domain",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj",
+        "projectPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\NewsletterService.Domain.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\obj\\",
+        "outputPath": "c:\\Users\\andre\\source\\repos\\newsletter\\src\\Microservices\\NewsletterService\\NewsletterService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

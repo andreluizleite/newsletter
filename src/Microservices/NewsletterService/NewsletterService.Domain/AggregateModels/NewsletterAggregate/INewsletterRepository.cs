@@ -13,7 +13,7 @@ namespace NewsletterService.Domain.AggregateModels.NewsletterAggregate
     {
         Newsletter Subscribe(Newsletter newsletter);
 
-        Task<bool> IsEmailExistAsync(string email);
+        bool IsEmailExist(string email);
 
         Task<IEnumerable<Newsletter>> GetSubscribersAsync();
     }
