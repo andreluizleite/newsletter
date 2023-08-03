@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using NewsletterService.Api.Application.Commands;
 using NewsletterService.Api.Application.DTOs;
@@ -9,31 +8,38 @@ namespace NewsletterService.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    public class NewsletterService
+    public class NewsletterController : ControllerBase
     {
         private readonly IMediator _mediator;
 
-        public NewsletterService(IMediator mediator)
+        public NewsletterController(IMediator mediator)
         {
             _mediator = mediator;
         }
 
         [HttpPost]
-        [Route("Subscribe")]
-        public async Task<bool> Subscribe(string email, HowHeardOptionDto howHeardUs, string reason)
+        public async Task<IActionResult> Subscribe([FromBody] SubscriptionDTO subscription)
         {
-            var command = new SubscribeToNewsletterCommand
+            try
             {
-                Email = email,
-                HowHeardUs = howHeardUs,
-                Reason = reason
-            };
+                var command = new SubscribeToNewsletterCommand
+                {
+                    Email = subscription.Email,
+                    HowHeardUs = subscription.HowHeardUs,
+                    Reason = subscription.Reason,
+                };
 
-            return await _mediator.Send(command);
+                bool result = await _mediator.Send(command);
+
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
         }
 
         [HttpGet]
-        [Route("GetSubscribers")]
         public async Task<List<SubscriptionDTO>> GetSubscribers()
         {
             var query = new GetNewsletterSubscribersQuery();

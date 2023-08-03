@@ -5,11 +5,11 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class NewsletterSignupService {
-  private apiUrl = 'http://your-backend-api-url';
+  private apiUrl = 'https://localhost:7147';
 
   constructor(private http: HttpClient) { }
 
   submitForm(userData: any) {
-    return this.http.post<any>(`${this.apiUrl}/newsletter/signup`, userData);
+    return this.http.post<any>(`${this.apiUrl}/api/v1/Newsletter`, userData);
   }
 }

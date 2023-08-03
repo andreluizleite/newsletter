@@ -2,20 +2,20 @@
 <form (ngSubmit)="onSubmit()" #signupForm="ngForm">
     <div>
       <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" [(ngModel)]="user.email" required>
+      <input type="email" id="email" name="email" [(ngModel)]="newsletter.email" required>
     </div>
     <div>
       <label for="howHeard">How did you hear about us:</label>
-      <select id="howHeard" name="howHeard" [(ngModel)]="user.howHeard" required>
+      <select id="howHeard" name="howHeard" [(ngModel)]="newsletter.howHeardUs" required>
         <option value="">Select one</option>
-        <option value="Advert">Advert</option>
-        <option value="Word of Mouth">Word of Mouth</option>
-        <option value="Other">Other</option>
+        <option value="0">Advert</option>
+        <option value="1">Word of Mouth</option>
+        <option value="2">Other</option>
       </select>
     </div>
     <div>
       <label for="reason">Reason for signing up:</label>
-      <textarea id="reason" name="reason" [(ngModel)]="user.reason"></textarea>
+      <textarea id="reason" name="reason" [(ngModel)]="newsletter.reason"></textarea>
     </div>
     <button type="submit">Sign Up</button>
     <p *ngIf="feedbackMessage">{{ feedbackMessage }}</p>
